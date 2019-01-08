@@ -1,3 +1,7 @@
---spark on yarn
-spark-submit --class com.hk.spark.SparkApp --master yarn-cluster --driver-memory 1g --executor-memory 1g SparkDemo.jar 1
+#spark on yarn
+spark-submit \
+--class com.hk.spark.SparkApp \
+--master yarn-cluster \
+--driver-memory 1g \
+--executor-memory 1g SparkDemo.jar 1
 
